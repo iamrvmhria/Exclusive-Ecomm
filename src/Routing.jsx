@@ -1,7 +1,7 @@
 import { createBrowserRouter } from 'react-router'
 import App from './App'
 // import PostIdPage from './pages/PostIdPage'
-// import ErrorPage from './pages/ErrorPage'
+import ErrorPage from './pages/ErrorPage'
 // import HomePage from './pages/HomePage'
 // import AboutPage from './pages/AboutPage'
 // import ContactPage from './pages/ContactPage'
@@ -55,9 +55,9 @@ export const router = createBrowserRouter([
         //     // }
         // ]
     },
-    // {
-    //     path:'*',
-    //     Component: ErrorPage
-    // }
+    {
+        path:'*',
+        Component: ErrorPage
+    }
 
 ]) 
